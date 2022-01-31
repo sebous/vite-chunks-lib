@@ -2,12 +2,7 @@
   "name": "react-lib",
   "version": "1.0.0",
   "description": "",
-  "main": "./dist/react-lib-module.js",
   "module": "./dist/react-lib.module.js",
-  "exports": {
-    "require": "./dist/react-lib.cjs",
-    "default": "./dist/react-lib.modern.js"
-  },
   "types": "./declaration/index.d.ts",
   "scripts": {
     "build": "microbundle"
